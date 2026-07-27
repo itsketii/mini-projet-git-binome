@@ -1,22 +1,94 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Mini-projet Git en binôme</title>
+    <meta charset="UTF-8">
+    <title>Notre Binôme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #e6749e;
+        }
+        
+        h1 { 
+            color: #5a0542;
+            text-align: center;
+            font-size: 2.2em;
+        }
+        
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(90, 5, 66, 0.15);
+            border-left: 6px solid #7e0757;
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(90, 5, 66, 0.2);
+        }
+        
+        h2 { 
+            color: #5a0542;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+        
+        p {
+            color: #950909;
+            line-height: 1.7;
+        }
+        
+        ul { 
+            color: #930341;
+            margin-left: 20px;
+            list-style: none;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin: 12px 0;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        li:before {
+            content: "●";
+            color: #e50f9e;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Présentation de nôtre binomz</h1>
-    <p>
-        Nous sommes Edéré Hervé Regina et Kouadio Kouadio, étudiantes en 1ère année de Licence Genie Logiciel & informatique.
-        Ce site est réalisé dans le cadre d'un mini-projet de collaboration avec Git et GitHub.
-        Il aura donc pour but de présenter brièvement nos profils, nos compétences et nos centres d'intérêts,
-        tout en mettant en pratique le travail en équipe, la gestion des branches, les pull requests et les merges requests, 
-        ainsi que la résolution des conflits.
-    </p>
-    <h2>Nos centres d'intérêts :</h2>
-    <ul>
-        <li>Développement logiciel</li>
-        <li>Hackathons</li>
-        <li>Technologie et innovation</li>
-        <li>Programmation Python, HTML, CSS et Flutter</li>
-    </ul>
+    <h1>Notre Binôme</h1>
+    
+    <div class="card">
+        <h2>Présentation</h2>
+        <p>
+            Nous sommes Edéré Hervé Régina et Kouadio Ketsia marie, étudiantes en 1ère année de Licence Génie Logiciel & Informatique.
+            Ce site est réalisé dans le cadre d'un mini-projet de collaboration avec Git et GitHub.
+            Il aura donc pour but de présenter brièvement nos profils, nos compétences et nos centres d'intérêts,
+            tout en mettant en pratique le travail en équipe, la gestion des branches, les pull requests et les merge requests, 
+            ainsi que la résolution des conflits.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Nos Centres d'Intérêts</h2>
+        <ul>
+            <li>Développement logiciel</li>
+            <li>Hackathons</li>
+            <li>Technologie et innovation</li>
+            <li>Programmation Python, HTML, CSS et Flutter</li>
+        </ul>
+    </div>
 </body>
+</html>
