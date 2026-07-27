@@ -27,8 +27,8 @@ Dans le cadre de la formation IIT Learn 25-26, ce mini-projet réalisé en binô
 * [X] Créer une branche `feature/competences` (Membre B)
 * [X] Fusionner `feature/competences` dans main
 * [X] Fusionner `feature/style` dans main (avec résolution de conflit)
-* [ ] Ajouter un fichier .gitignore
-* [ ] Mettre à jour le README.md
+* [X] Ajouter un fichier .gitignore
+* [X] Mettre à jour le README.md
 
 ---
 
